@@ -6,3 +6,4 @@ to change the name,
 
 or to start anew,
 - `mkdir backup; mv pyproject.toml backup/; mv src backup/`
+- `uv init --lib --name ...`
