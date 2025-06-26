@@ -18,7 +18,7 @@ fi
 # Install dependencies
 if [ -f "pyproject.toml" ]; then
     echo "calling uv sync..."
-    uv sync --all-extras
+    uv sync --all-extras --all-groups
     echo "calling uv run pre-commit install..."
     uv run pre-commit install
     echo "checking secrets baseline..."
